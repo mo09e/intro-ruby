@@ -3,7 +3,7 @@ class Player
   def hand
     # 「プレイヤーに 0 ~ 2を入力させる文章」を表示させます。
      puts "数字を入力してください。"
-     puts "0:グー, 1:チョキ, 2:パー"
+     puts "0:グー\n1:チョキ\n2:パー"
      player_hand = gets.chomp
      # player_hand = input_hand
     # 変数「input_hand」にプレイヤーが入力したものを取得して代入します。
